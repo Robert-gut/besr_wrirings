@@ -1,0 +1,66 @@
+.baner .main_bg{
+  background-color: #e5e8eb
+}
+.baner .bg_img{
+  background-image: url(../../images/main_bg_img_heder.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.baner a img{
+  margin: 10px 0px;
+}
+
+.baner .bloc_h1{
+  background-color: var(--color_btn_send_message_hover);
+  text-align: center;
+  width: 98%;
+  box-shadow: 2px 3.464px 3.5px rgba(155, 182, 190, 0.75)
+}
+
+
+.baner .bloc_h1 h1{
+  margin: 0px 0px;
+  /* position: relative;
+  bottom: 15px; */
+}
+.baner  h3{
+  padding: 15px 0px 0px 54px;
+  margin: 0px;
+}
+.baner .left ul{
+  padding-left: 57px;
+}
+.baner .left ul li{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: var(--color_p_text);
+  font-weight: 600;
+  padding: 2px 0px 0px 0px;
+}
+.baner .left ul li::marker{
+  color: var(--color_main_1);
+}
+.baner .btm a{
+  font-family:  Roboto_Refular;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 42px;
+  text-align: center;
+  color: var(--color_btn_read_more);
+  display: inline-block;
+  border: 1px solid var(--color_main_1);
+  width: 230px;
+}
+
+.baner .btm1 a{
+  margin: 0px 0px 0px 55px;
+}
+.baner .btm3 a{
+  margin: 16px 0px 16px 55px;
+}
+.baner .btm2 a{
+  margin: 0px 0px 0px 31px;
+}
+.baner .btm4 a{
+  margin: 16px 0px 0px 31px;
+}
