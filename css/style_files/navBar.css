@@ -16,7 +16,7 @@ nav ul li{
   display: inline;
 }
 
-nav a{
+nav ul li a{
   text-transform: uppercase;
   padding: 13px 20px;
   font-size: 20px;
@@ -27,10 +27,22 @@ nav a{
   font-family: Roboto_Refular;
   color: var(--color_btn_text);
   text-decoration: none;
+  position: relative;
 }
+
+.border_li::after{
+  content: '';
+  border: 2px solid #fff;
+  border-radius: 3px;
+  position: relative;
+  left: 2px;
+  z-index: 0
+}
+
 nav ul li a:hover{
   background-color: var(--color_btn_send_message_hover);
   color: var(--color_btn_text_hover);
+  box-shadow: -10px 0px 0px rgb(202, 221, 234),
+            10px 0px 0px rgb(202, 221, 234, .99);
+  z-index: 1;
 }
-
-

@@ -14,14 +14,25 @@
   background-color: var(--color_btn_send_message_hover);
   text-align: center;
   width: 98%;
-  box-shadow: 2px 3.464px 3.5px rgba(155, 182, 190, 0.75)
+  filter: drop-shadow(2px 3.464px 3.5px rgba(155, 182, 190, 0.75))
+}
+
+.baner .bloc_h1::before{
+  content: '';
+  width: 0; 
+  height: 0;
+  border-top: 35px solid var(--color_btn_send_message_hover);
+  border-right: 35px solid transparent;
+  position: relative;
+  top: 90px;
+  right: 300px;
 }
 
 
 .baner .bloc_h1 h1{
   margin: 0px 0px;
-  /* position: relative;
-  bottom: 15px; */
+  position: relative;
+  bottom: 10px;
 }
 .baner  h3{
   padding: 15px 0px 0px 54px;
@@ -37,9 +48,11 @@
   font-weight: 600;
   padding: 2px 0px 0px 0px;
 }
+
 .baner .left ul li::marker{
   color: var(--color_main_1);
 }
+
 .baner .btm a{
   font-family:  Roboto_Refular;
   text-decoration: none;

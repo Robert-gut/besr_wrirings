@@ -41,7 +41,36 @@ header a{
   font-family: Roboto_Refular;
 }
 
+.login::after{
+  content: '';
+  display: inline-block;
+  background-image: url(../../images/Login.svg);
+  background-repeat: no-repeat;
+  width: 55px;
+  height: 28px;
+  position: relative;
+  top: 5px;
+}
 
+.live_chat::after{
+  content: '';
+  display: inline-block;
+  background-image: url(../../images/Chat.svg);
+  background-repeat: no-repeat;
+  width: 55px;
+  height: 28px;
+  position: relative;
+  top: 5px;
+}
+
+
+.login:hover::after{
+  background-image: url(../../images/Login2.svg)
+}
+
+.live_chat:hover::after{
+  background-image: url(../../images/Chat2.svg)
+}
 
 .login:hover, .live_chat:hover{
   color: var(--color_btn_text_hover);
