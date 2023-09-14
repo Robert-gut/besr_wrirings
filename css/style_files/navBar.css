@@ -6,14 +6,14 @@ nav{
   height: 56px;
 }
 
-
 nav ul{
   margin: 0px;
   padding: 0px;
+  display: flex;
+  justify-content: space-around;
 }
 nav ul li{
   list-style: none;
-  display: inline;
 }
 
 nav ul li a{
@@ -35,14 +35,14 @@ nav ul li a{
   border: 2px solid #fff;
   border-radius: 3px;
   position: relative;
-  left: 2px;
+  left: 4%;
   z-index: 0
 }
 
 nav ul li a:hover{
   background-color: var(--color_btn_send_message_hover);
   color: var(--color_btn_text_hover);
-  box-shadow: -10px 0px 0px rgb(202, 221, 234),
-            10px 0px 0px rgb(202, 221, 234, .99);
+  box-shadow: -16px 0px 0px rgb(202, 221, 234),
+            16px 0px 0px rgb(202, 221, 234, .99);
   z-index: 1;
 }
