@@ -1,10 +1,12 @@
-.baner .main_bg{
-  background-color: #e5e8eb
+.baner{
+  background-color: #e4e9ee;
+  padding: 0;
 }
 .baner .bg_img{
   background-image: url(../../images/main_bg_img_heder.png);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center right;
 }
 .baner a img{
   margin: 10px 0px;
